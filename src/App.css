@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .App {
   text-align: center;
 }
@@ -23,6 +24,14 @@ body {
 
 div .title-movie {
   color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+.title-movie {
+  margin: 40px;
 }
 
 .movies {
