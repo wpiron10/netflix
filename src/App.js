@@ -1,13 +1,14 @@
 import "./App.css";
 import movies from "./movies.json";
-import logoN from "./assets/img/logon.jpg";
+
+import Navbar from "./components/Navbar";
 import Content from "./components/Content";
 
 function App() {
   return (
     <>
       <div className="navbar">
-        <img className="logo-netflix" alt="logo-netflix.jpeg" src={logoN} />
+        <Navbar props />
       </div>
       <div>
         <div className="title-movie">
